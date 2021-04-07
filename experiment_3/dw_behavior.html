@@ -3,6 +3,9 @@
 <head>
 <meta charset="utf-8">
 <title>无标题文档</title>
+<script src="file:///C|/Users/Dosaka/AppData/Roaming/Adobe/Dreamweaver 2021/zh_CN/Configuration/Temp/Assets/eamA3C7.tmp/jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="file:///C|/Users/Dosaka/AppData/Roaming/Adobe/Dreamweaver 2021/zh_CN/Configuration/Temp/Assets/eamA3C7.tmp/jQueryAssets/jquery-ui-effects.custom.min.js"></script>
+<script type="text/javascript">
 function MM_popupMsg(msg) { //v1.0
   alert(msg);
 }
@@ -10,11 +13,15 @@ function MM_DW_effectBlind(obj,method,effect,dir,speed)
 {
     obj[method](effect, { direction: dir}, speed);
 }
+function MM_DW_effectShake(obj,method,effect,direction,distance,times,speed)
+{
+    obj[method](effect, {direction:direction,distance:distance,times:times}, speed);
+}
 </script>
 </head>
 
 <body>
-<div onfocus="MM_popupMsg('nice')">
+<div onClick="MM_DW_effectShake($(this),'effect','shake','left',20,3,1000)" onfocus="MM_popupMsg('nice')">
   <p onMouseOver="MM_popupMsg('error！error！')">南京理工大学</p>
   <p>&nbsp;</p>
 </div>
