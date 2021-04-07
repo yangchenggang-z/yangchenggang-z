@@ -3,15 +3,18 @@
 <head>
 <meta charset="utf-8">
 <title>无标题文档</title>
-<script type="text/javascript">
 function MM_popupMsg(msg) { //v1.0
   alert(msg);
+}
+function MM_DW_effectBlind(obj,method,effect,dir,speed)
+{
+    obj[method](effect, { direction: dir}, speed);
 }
 </script>
 </head>
 
 <body>
-<div>
+<div onfocus="MM_popupMsg('nice')">
   <p onMouseOver="MM_popupMsg('error！error！')">南京理工大学</p>
   <p>&nbsp;</p>
 </div>
