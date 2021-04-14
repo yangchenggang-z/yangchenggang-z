@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<title>html文档</title>
+</head>
+
+<body>
+<script>
+	function formsubmit(){
+		var formLength=document.forms[0].elements.length;
+		for(var i=0;i<formLength-1;i++){
+			if(document.forms[0].elements[i].value.length==0){
+				alert("第"+(i+1)+"个文本框没有输入内容")；
+				return false
+			}
+		}
+	}
+</script>
+<form name="myform" action="submit.htm" onsubmit="return formsubmit()">
+	姓名：<input type="text" name="myname" /><br />
+	密码：<input type="password" name="mypass" /><br />
+	<input type="submit">
+<form>
+</body>
+</html>
