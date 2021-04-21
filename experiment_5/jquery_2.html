@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="script/jquery-1.7.2.js"></script><!--引入 jQuery 库-->
+    <script type="text/javascript">
+    $(function(){
+        var obj = $("#btn");
+        alert(obj[0] );//[object HTMLButtonElement] 可使用jQuery中的函数
+        alert(obj);//[object Object]
+    });
+    </script>
+</head>
+<body>
+    <button id="btn">按钮</button>
+</body>
+</html>
