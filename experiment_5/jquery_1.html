@@ -1,44 +1,38 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">  
-<html>  
-  <head>  
-    <title>contentFilter_selecter.html</title>  
-      
-    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">  
-    <meta http-equiv="description" content="this is my page">  
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">  
-      
-    <script language="JavaScript" src="../jquery/jquery-1.4.2.js"></script>  
-    <style>  
-        .mini{  
-            width:100px;  
-            height:50px;  
-            background-color:green;  
-        }  
-    </style>  
-  </head>  
-    
-  <body>  
-    <input type="button" value="改变含有文本di的背景色" id="b1" />  
-    <input type="button" value="改变没有文本的背景色" id="b2" />  
-    <input type="button" value="改变含有<p>的div元素的背景色" id="b3" />  
-    <input type="button" value="改变含有子元素或者文本的div" id="b4" />  
-    <input type="button" value="改变不含有文本di的div元素的背景色" id="b5" />  
-      
-    <div> id为one div</div>  
-    <div ><p> id为two class是mini div</p></div>  
-    <div class="mini"></div>  
-    <div> id为two class是mini</div>  
-      
-    <table border="1" cellspacing="0" width="200">  
-        <tbody>  
-            <tr>  
-                <td>1</td>  
-                <td>1</td>  
-                <td></td>  
-                <td></td>  
-            </tr>  
-        </tbody>  
-    </table>  
-      
-  </body>  
-  <script language="JavaScript">  
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Untitled Document</title>
+		<style type="text/css">
+			div.mini {
+			    width: 55px;
+			    height: 55px;
+			    background-color: #aaa;
+			    font-size: 12px;
+			}
+			
+			div.hide {
+			    display: none;
+			}
+		</style>
+		<script type="text/javascript" src="script/jquery-1.7.2.js"></script>
+		<script type="text/javascript">
+			$(function () {
+                $("#btn1").click(function () {
+                    alert("点击");
+                    $("div").hide();
+                });
+				$("#btn2").click(function () {
+				    alert("点击");
+                    $("div").show();
+                });
+
+            });
+		</script>
+	</head>
+	<body>
+		<div class="mini">div标签</div>
+	<button id="btn1">隐藏</button>
+	<button id="btn2">显示</button>
+	</body>
+</html>
