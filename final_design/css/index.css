@@ -1,0 +1,162 @@
+/* 轮换图制作 */
+.focus{
+    display: center;
+    justify-content: center;
+    align-items: center;
+}
+ul.slides{
+    width: 1900px;
+    height: 700px;
+    position: relative;
+    list-style: none;
+    margin: none;
+    padding: none;
+    background-color: #eee;
+    overflow: hidden;
+}
+li.slide{
+    margin: 0px;
+    padding: 0px;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    transition: .5s transform ease-in-out;
+}
+.slide:nth-of-type(1){
+    background-image: url(../images/focus1.jpg);
+    background-repeat: no-repeat;
+}
+.slide:nth-of-type(2){
+    background-image: url(../images/focus2.jpg);
+    background-repeat: no-repeat;
+    left: 100%;
+}
+.slide:nth-of-type(3){
+    background-image: url(../images/focus3.jpg);
+    background-repeat: no-repeat;
+    left: 200%;
+}
+
+input[type="radio"]{
+    position: relative;
+    z-index: 100;
+    display: none;
+}
+.controls-visible{
+    position: absolute;
+    width: 100%;
+    bottom: 12px;
+    text-align: center;
+}
+.controls-visible label{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 3px;
+    border: 2px solid #fff;
+}
+.slides input[type="radio"]:nth-of-type(1):checked~
+.controls-visible label:nth-of-type(1){
+    background-color: #333;
+}
+.slides input[type="radio"]:nth-of-type(2):checked~
+.controls-visible label:nth-of-type(2){
+    background-color: #333;
+}
+.slides input[type="radio"]:nth-of-type(3):checked~
+.controls-visible label:nth-of-type(3){
+    background-color: #333;
+}
+/* 点击相应radio，将三个slide向左移动特定的距离 */
+.slides input[type="radio"]:nth-of-type(1):checked~.slide{
+    transform: translateX(0%);
+}
+.slides input[type="radio"]:nth-of-type(2):checked~.slide{
+    transform: translateX(-100%);
+}
+.slides input[type="radio"]:nth-of-type(3):checked~.slide{
+    transform: translateX(-200%);
+}
+/* 产品鉴赏制作 */
+.product{
+    height: 630px;
+    background-color: rgb(196,178,162);
+}
+.introduce{
+    height: 90px;
+}
+.introduce ul li{
+    float: left;
+    list-style: none;
+}
+.introduce1{
+    margin-top: 43px;
+}
+.introduce1 a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+.introduce2{
+    font-size: 14px;
+    color: rgb(77,64,53);
+    margin-top: 51px;
+}
+.introduce1 a:hover{
+    color: rgb(77,64,53);
+}
+.gallery{
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 30px;
+    border: 1px solid transparent;
+    float: left;
+    width: 312px;
+}
+.gallery:hover{
+    border: 1px solid;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+.desc{
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+/* slogan制作 */
+.slogan{
+    height: 439px;
+    margin: 0px;
+    padding: 0px;
+}
+.indexcat,.slogan-words{
+    width: 50%;
+    height: 439px;
+    float: left;
+    border: 0px;
+}
+.slogan-words{
+    background-color: rgb(240,240,240);
+}
+.slogan-words1{
+    margin-top: 40px;
+    margin-left: 83px;
+}
+.slogan-words1 h4{
+    font-size: 22px;
+    color: rgb(140,131,127);
+}
+.shop{
+    height: 230px;
+}
+.slogan-words1 p{
+    font-size: 18px;
+    color: rgb(140,131,127);
+}

@@ -1,0 +1,242 @@
+.communication-head{
+    background-image: url(../images/inner-bg.jpg);
+    padding: 165px 0 165px;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.menu-list{
+    background-color: rgb(247,247,247);
+    min-height: 4000px;
+}
+.w1{
+    width: 1060px;
+    margin: 0 auto;
+}
+.box1{
+    height: 330px;
+}
+.box2{
+    height: 860px;
+}
+.box3{
+    height: 1135px;
+}
+.box4{
+    height: 600px;
+}
+.preview1{
+    padding-top: 45px;
+    position: relative;
+    list-style: none;
+}
+.thumbnail{
+    display: block;
+    color: inherit;
+    text-align: center;
+    margin-right: 16px;
+    text-decoration: none;
+    background-color: transparent;
+}
+.preview-circle{
+    box-shadow: 0 1px 1px 1px rgba(83, 82, 82, 0.918);
+    max-width: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 auto 6px;
+    width: 100%;
+    z-index: 2;
+    border-radius: 50%;
+    height: 200px;
+}
+.drink1{
+    background-image: url(../images/menu1.jpg);
+}
+.drink2{
+    background-image: url(../images/menu2.jpg);
+}
+.drink3{
+    background-image: url(../images/menu3.jpg);
+}
+.drink4{
+    background-image: url(../images/menu4.jpg);
+}
+.drink5{
+    background-image: url(../images/menu5.jpg);
+}
+.drink6{
+    background-image: url(../images/menu6.jpg);
+}
+.drink7{
+    background-image: url(../images/menu7.jpg);
+}
+.drink8{
+    background-image: url(../images/drink8.jpg);
+}
+.drink9{
+    background-image: url(../images/drink9.jpg);
+}
+.drink10{
+    background-image: url(../images/drink10.jpg);
+}
+.drink11{
+    background-image: url(../images/drink11.jpg);
+}
+.drink12{
+    background-image: url(../images/drink12.jpg);
+}
+.drink13{
+    background-image: url(../images/drink13.jpg);
+}
+.drink14{
+    background-image: url(../images/drink14.jpg);
+}
+.drink15{
+    background-image: url(../images/drink15.jpg);
+}
+.drink16{
+    background-image: url(../images/drink16.jpg);
+}
+.drink16{
+    background-image: url(../images/drink16.jpg);
+}
+.drink17{
+    background-image: url(../images/drink17.jpg);
+}
+.drink18{
+    background-image: url(../images/drink18.jpg);
+}
+.drink19{
+    background-image: url(../images/drink19.jpg);
+}
+.drink20{
+    background-image: url(../images/drink20.jpg);
+}
+.drink21{
+    background-image: url(../images/drink21.jpg);
+}
+.drink22{
+    background-image: url(../images/drink22.jpg);
+}
+.drink23{
+    background-image: url(../images/drink23.jpg);
+}
+.drink24{
+    background-image: url(../images/drink24.jpg);
+}
+.drink25{
+    background-image: url(../images/drink25.jpg);
+}
+.drink26{
+    background-image: url(../images/drink26.jpg);
+}
+.drink27{
+    background-image: url(../images/drink27.jpg);
+}
+.drink28{
+    background-image: url(../images/drink28.jpg);
+}
+.drink29{
+    background-image: url(../images/drink29.jpg);
+}
+.drink30{
+    background-image: url(../images/drink30.jpg);
+}
+.drink37{
+    background-image: url(../images/drink37.jpg);
+}
+.drink31{
+    background-image: url(../images/drink31.jpg);
+}
+.drink32{
+    background-image: url(../images/drink32.jpg);
+}
+.drink33{
+    background-image: url(../images/drink33.jpg);
+}
+.drink34{
+    background-image: url(../images/drink34.jpg);
+}
+.drink35{
+    background-image: url(../images/drink35.jpg);
+}
+.drink36{
+    background-image: url(../images/drink36.jpg);
+}
+.drink38{
+    background-image: url(../images/drink38.jpg);
+}
+.drink39{
+    background-image: url(../images/drink39.jpg);
+}
+.drink40{
+    background-image: url(../images/drink40.jpg);
+}
+.drink41{
+    background-image: url(../images/drink41.jpg);
+}
+.drink42{
+    background-image: url(../images/drink42.jpg);
+}
+.drink43{
+    background-image: url(../images/drink43.jpg);
+}
+.drink44{
+    background-image: url(../images/drink44.jpg);
+}
+.drink45{
+    background-image: url(../images/drink45.jpg);
+}
+.drink46{
+    background-image: url(../images/drink46.jpg);
+}
+.drink47{
+    background-image: url(../images/drink47.jpg);
+}
+.drink48{
+    background-image: url(../images/drink48.jpg);
+}
+.drink49{
+    background-image: url(../images/drink49.jpg);
+}
+.drink50{
+    background-image: url(../images/drink50.jpg);
+}
+.drink51{
+    background-image: url(../images/drink51.jpg);
+}
+.drink52{
+    background-image: url(../images/drink52.jpg);
+}
+.drink53{
+    background-image: url(../images/drink53.jpg);
+}
+.preview1 li{
+    float: left;
+    padding: 16px;
+    width: 25%;
+    position: relative;
+}
+.caption{
+    padding: 16px;
+    clear: left;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    float: left;
+    line-height: 160%;
+    color: rgba(0, 0, 0, 0.56);
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.hr{
+    margin: 36px auto;
+    background: rgba(0, 0, 0, 0.075);
+    border: 0;
+    height: 1px;
+}
+
