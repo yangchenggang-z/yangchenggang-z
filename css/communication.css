@@ -1,0 +1,264 @@
+.communication-head{
+    background-image: url(../images/inner-bg.jpg);
+    padding: 165px 0 165px;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.communication-part{
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: auto;
+    margin-left: auto;
+    padding: 45px 0;
+    clear:both;
+    min-height: 1900px;
+}
+.communication-left{
+    width: 75%;
+}
+.communication-right{
+    width: 25%;
+}
+.communication-left,.communication-right{
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.panal{
+    margin: 0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d8d8d8;
+    background-color: #f2f2f2;
+    padding: 1.42857rem;
+}
+.panal >:first-child{
+    margin-top: 0px;
+}
+.panal span{
+    font-size: 14px;
+    color: #151414;
+}
+.panal span a{
+    text-decoration: none;
+    color: black;
+}
+.panal h1{
+    font-size: 25px;
+    line-height: 45px;
+    margin-bottom: 0px;
+    color: #333333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.panal p{
+    color: #005bb0;
+    font-size: 16px;
+}
+.div{
+    display: block;
+}
+.communication-slogan{
+    background-image: url(../images/communicationcat.jpg);
+    background-repeat: no-repeat;
+    height: 380px;
+}
+.communication-slogan1{
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d8d8d8;
+    background-color: rgb(241,235,243);
+    width: 711px;
+    height: 265px;
+    margin-top: 65px;
+    margin-left: 300px;
+}
+.communication-slogan-top{
+    color: rgb(255,159,0);
+    font-size: 18px;
+    word-spacing: -1.5px;
+    font-weight: bold;
+    margin-top: 23px;
+    margin-left: 17px;
+}
+.communication-slogan-bottom{
+    width: 709px;
+    height: 195px;
+    background-color: #f9f9f9;
+    margin-left: 0px;
+    margin-top: 20px;
+    border-color: inherit;
+    vertical-align: inherit;
+}
+.communication-slogan-text1{
+    margin-left: 17px;
+    height: 140px;
+}
+.communication-slogan-text1 span{
+    font-size: 1rem;
+    padding-top: 23px;
+    line-height: 1.75rem;
+    text-rendering: optimizeLegibility;
+    font-size: 16px;
+}
+.communication-slogan-text2 h1{
+    font-size: 20px;
+    color: rgb(255,159,0);
+}
+.communication-slogan-text2 p{
+    font-size: 7px;
+}
+.communication-contact{
+    height: 80px;
+    background-color: white;
+    text-align: center;
+}
+.communication-contact span{
+    font-size: 24px;
+    color: black;
+}
+.communication-left table{
+    background-color: #f1ebf3;
+    margin-bottom: 1.42857rem;
+    box-sizing: border-box;
+    border: solid 1px #DDDDDD;
+    table-layout: auto;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+.communication-left hr{
+    border-color: #eee;
+    border: solid #DDDDDD;
+    border-width: 1px 0 0;
+    clear: both;
+    margin: 1.42857rem 0 1.35714rem;
+}
+.contact-wrap{
+    height: 444px;
+}
+.msg-title{
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 25px;
+    color: inherit;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.cf-column{
+    padding-bottom: 20px;
+    position: relative;
+    width: 50%;
+    float: left;
+    padding-right: 15px;
+    padding-right: 15px;
+    min-height: 1px;
+}
+.msg-form input{
+    padding: 0 15px;
+    border: 1px solid #ddd;
+    height: 40px;
+    line-height: 40px;
+    color: #444;
+    width: 100%;
+    margin-bottom: 0;
+}
+.leave-msg{
+    width: 100%;
+    line-height: 160%;
+    padding-bottom: 20px;
+    position: relative;
+    padding-right: 15px;
+    padding-right: 15px;
+    min-height: 1px;
+}
+.leave-msg textarea{
+    border: 1px solid #ddd;
+    color: #444;
+    min-height: 100px;
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 0;
+    height: 9rem;
+    max-width: 100%;
+}
+.submit-button{
+    width: 100%;
+    line-height: 40px;
+    height: 40px;
+    float: right;
+    padding: 0px 15px;
+    border: 0px;
+    color: #fff;
+    position: relative;
+    background-color: #333;
+    cursor: pointer;
+    font-size: 14px;
+}
+.news h3{
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 22px;
+    margin-top: 0;
+    color: #525659;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+}
+.block-current{
+    display: block;
+    padding: 22px 0 0;
+    border-top: 1px solid #d3dae0;
+}
+.widget-list{
+    list-style: none;
+    padding: 0px;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.widget-list li{
+    list-style: none;
+    overflow: hidden;
+}
+.widget-list li figure a img{
+    width: 106px;
+    height: 75px;
+}
+.widget-list li figure{
+    margin: 0 15px 0 0;
+    float: left;
+    padding: 0 0 15px;
+    margin-bottom: 15px;
+    background: none;
+    border-bottom: 1px solid #E8E9EF;
+    line-height: 1.0;
+    font-size: 14px;
+    color: #6e7375;
+
+}
+.widget-list li a{
+    color: #6e7375;
+    outline: none!important;
+    text-decoration: none;
+    line-height: inherit;
+    cursor: pointer;
+}
+.s-desc a{
+    margin-bottom: 8px;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+.comments{
+    background: none;
+    margin-right: 0;
+    padding-left: 0;
+    padding-top: 3px;
+    display: inline-block;
+    font-size: 12px;
+}
